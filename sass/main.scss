@@ -10,10 +10,12 @@
 @import './components/container';
 @import './components/mobile-menu';
 @import './components/button';
+@import './components/about-modal';
 @import './components/socials';
 
 // layout
-@import './layout/hero-header';
+@import './layout/header';
+@import './layout/hero';
 @import './layout/products';
 @import './layout/about';
 @import './layout/advantages';

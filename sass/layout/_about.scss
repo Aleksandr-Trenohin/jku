@@ -1,6 +1,4 @@
 .about {
-  // position: relative;
-
   padding-top: 125px;
 
   background-size: auto;
@@ -8,11 +6,6 @@
 
   @media screen and (max-width: 767px) {
     background-position: top 766px left 0, top 766px right 0;
-    // top: 766px;
-    // left: 50%;
-    // transform: translateX(-50%);
-    // width: 320px;
-    // min-height: 133px;
     background-image: url('../images/about/milk-splashes-left.png'),
       url('../images/about/milk-splashes-right.png');
     @media (min-device-pixel-ratio: 2),
@@ -27,65 +20,17 @@
   }
   @media screen and (min-width: 1280px) {
     background-position: top 342px left 0, top 342px right 0;
-    // top: 342px;
-    // left: 50%;
-    // transform: translateX(-50%);
-    // width: 1280px;
-    // min-height: 534px;
     background-image: url('../images/about/milk-splashes-desktop-left.png'),
       url('../images/about/milk-splashes-desktop-right.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url('../images/about/milk-splashes-left-desktop-2x.png'),
-        url('../images/about/milk-splashes-right-desktop-2x.png');
+      background-image: url('../images/about/milk-splashes-desktop-left-2x.png'),
+        url('../images/about/milk-splashes-desktop-right-2x.png');
     }
   }
 
   background-color: var(--primary-bg-color);
-}
-// .about__bg {
-//   position: absolute;
-
-//   margin-left: auto;
-//   margin-right: auto;
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   background-size: contain;
-//   @media screen and (max-width: 767px) {
-//     top: 766px;
-//     left: 50%;
-//     transform: translateX(-50%);
-//     width: 320px;
-//     min-height: 133px;
-//     background-image: url(../images/about/milk-splashes.png);
-//     @media (min-device-pixel-ratio: 2),
-//       (min-resolution: 192dpi),
-//       (min-resolution: 2dppx) {
-//       background-image: url(../images/about/milk-splashes-2x.png);
-//     }
-//   }
-//   @media screen and (min-width: 1280px) {
-//     top: 342px;
-//     left: 50%;
-//     transform: translateX(-50%);
-//     width: 1280px;
-//     min-height: 534px;
-//     background-image: url(../images/about/milk-splashes-desktop.png);
-//     @media (min-device-pixel-ratio: 2),
-//       (min-resolution: 192dpi),
-//       (min-resolution: 2dppx) {
-//       background-image: url(../images/about/milk-splashes-desktop-2x.png);
-//     }
-//   }
-// }
-
-.about__title {
-  @media screen and (max-width: 767px) {
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 .about__wrap {
